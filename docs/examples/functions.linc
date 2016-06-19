@@ -1,0 +1,18 @@
+function void strlen(char[] str)
+{
+	int i=0
+	while((str[i]!=0))
+	{
+		i=i+1
+	}
+	return(i)
+}
+
+function void main()
+{
+	char[1000] s1
+	gets(s1)
+	int len=strlen(s1)
+	print("String length of ".s1." is ".len)
+	terminate()
+}

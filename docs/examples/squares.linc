@@ -1,0 +1,18 @@
+function void main()
+{
+	int[10] y
+	int i
+	i=0
+	while((i<10))
+	{
+		y[i]=i*i
+		i=i+1
+	}
+	i=0
+	while((i<10))
+	{
+		print(y[i].endl)
+		i=i+1
+	}
+	terminate()
+}

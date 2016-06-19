@@ -1,0 +1,17 @@
+function void main()
+{
+	char[15] s1:"sachin"
+	char[30] s2
+	char[30] gr:" is the greatest"
+	s2:s1+gr
+	char[40] s3:s2
+	char[40] s4
+	s4:s3
+	s4[0]='p'
+	print(s1.endl)
+	print(gr.endl)
+	print(s2.endl)
+	print(s3.endl)
+	print(s4.endl)
+	terminate()
+}

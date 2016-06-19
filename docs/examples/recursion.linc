@@ -1,0 +1,18 @@
+function void fib(int a, int b)
+{
+	if((b<1000))
+	{
+		print(a." ")
+		fib(b, a+b)
+	}
+	else
+	{
+		return(0)
+	}
+}
+
+function void main()
+{
+	fib(1, 2)
+	terminate()
+}

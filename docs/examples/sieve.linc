@@ -1,0 +1,38 @@
+function void main()
+{
+	int y=1000
+	int x=y/10
+	int[y] arr
+	int[x] pr
+	int i=0
+	while((i<y))
+	{
+		arr[i]=0
+		i=i+1
+	}
+	i=2
+	while((i<y))
+	{
+		if((arr[i]==0))
+		{
+			int j=2*i
+			while((j<y))
+			{
+				arr[j]=1
+				j=j+i
+			}
+		}
+		i=i+1
+	}
+	int k=0
+	i=2
+	while((i<y))
+	{
+		if((arr[i]==0))
+		{
+			print(i.endl)
+		}
+		i=i+1
+	}
+	terminate()
+}

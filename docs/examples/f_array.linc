@@ -1,0 +1,23 @@
+function void arr_pass(int[] p)
+{
+	int i=0
+	while((p[i]!=-1))
+	{
+		print(p[i]." ")
+		i=i+1
+	}
+}
+
+function void main()
+{
+	int[10] arr
+	int x=0
+	while((x<6))
+	{
+		arr[x]=x*x
+		x=x+1
+	}
+	arr[6]=-1
+	arr_pass(arr)
+	terminate()
+}

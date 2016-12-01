@@ -1,16 +1,11 @@
-## LINC
+# LINC
 
 ![image](https://i.imgur.com/O3d03Xe.png)
 
-LINC stands for "LINC Is Not C++".
+**LINC** is an interpreted programming language that supports data types, arithmetic, conditions, iterations, functions, arrays, console IO, file IO, and exceptions. It is designed with simplicity in mind, without compromising on performance.
 
-It is an interpreted language that borrows syntax and functionalities from C, C++, Python and a few others.
+LINC stands for `LINC is not C++`. Ironically, it is written in C++.
 
-LINC is written purely in C/C++ (ironically).
+##License
 
-Features:
-	Console I/O
-	Integers, strings, characters variables
-	Conditional programming
-	Loops
-	User-defined parametrized functions and recursion
+Please see the [LICENSE](LICENSE) file for more details (MIT).

@@ -1,5 +1,7 @@
 ## LINC
 
+![image](https://i.imgur.com/O3d03Xe.png)
+
 LINC stands for "LINC Is Not C++".
 
 It is an interpreted language that borrows syntax and functionalities from C, C++, Python and a few others.

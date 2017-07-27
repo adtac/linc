@@ -6,6 +6,6 @@
 
 LINC stands for `LINC is not C++`. Ironically, it is written in C++.
 
-##License
+## License
 
 Please see the [LICENSE](LICENSE) file for more details (MIT).
